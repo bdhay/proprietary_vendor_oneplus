@@ -16,7 +16,7 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter enchilada fajita,$(TARGET_DEVICE)),)
+ifneq ($(filter enchilada fajita oneplus6 oneplus6t,$(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := dashd
